@@ -1,0 +1,23 @@
+{
+  "name": "TMoweS | Next.js Boilerplate",
+  "short_name": "TMoweS Boilerplate",
+  "icons": [
+    {
+      "src": "/ico-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ico-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#121218",
+  "description": "Boilerlate utilizando Next.js, Typescript e Styled-Components",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#121218"
+}

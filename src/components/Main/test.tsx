@@ -6,8 +6,14 @@ describe('<Main />', () => {
   it('should render the heading', () => {
     const { container } = render(<Main />)
 
-    expect(screen.getByRole('heading', { name: /react avançado/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /tmowes/i })).toBeInTheDocument()
 
-    expect(container.firstChild).toMatchSnapshot()
+    // expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#171923' })
   })
 })
