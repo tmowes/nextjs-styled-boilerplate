@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+*.snap
+
 # next.js
 /.next/
 /out/
